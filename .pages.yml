@@ -5,11 +5,7 @@ media:
 
 content:
   - name: website
-    label: Website
+    label: Website HTML
     type: file
     path: index.html
-    format: raw
-    fields:
-      - name: body
-        label: Website HTML
-        type: code
+    format: code
