@@ -1,4 +1,3 @@
-
 media:
   input: images
   output: /images
@@ -13,17 +12,32 @@ content:
       - name: headline
         label: Hauptüberschrift
         type: string
+      - name: headline_en
+        label: Main Heading (English)
+        type: string
       - name: intro
         label: Einleitung
+        type: text
+      - name: intro_en
+        label: Introduction (English)
         type: text
       - name: about
         label: Über uns
         type: text
+      - name: about_en
+        label: About Us (English)
+        type: text
       - name: announcement
         label: Aktuelle Mitteilung
         type: text
+      - name: announcement_en
+        label: Announcement (English)
+        type: text
       - name: opening_hours
         label: Öffnungszeiten
+        type: text
+      - name: opening_hours_en
+        label: Opening Hours (English)
         type: text
       - name: phone
         label: Telefonnummer
@@ -37,6 +51,9 @@ content:
       - name: menu_note
         label: Hinweis zur Speisekarte
         type: text
+      - name: menu_note_en
+        label: Menu Note (English)
+        type: text
       - name: menu
         label: Speisekarte
         type: object
@@ -45,11 +62,20 @@ content:
           - name: category
             label: Kategorie
             type: string
+          - name: category_en
+            label: Category (English)
+            type: string
           - name: name
             label: Gericht
             type: string
+          - name: name_en
+            label: Dish (English)
+            type: string
           - name: description
             label: Beschreibung
+            type: string
+          - name: description_en
+            label: Description (English)
             type: string
           - name: price
             label: Preis (mit CHF)
