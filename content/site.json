@@ -1,109 +1,185 @@
+
 {
-  "headline": "Einfach gut. Mit Liebe gemacht.",
+  "headline": "Kleine Pause. Grosser Genuss.",
+  "headline_en": "A Little Stop. A Lot of Flavour.",
   "intro": "Schweizer Klassiker treffen auf tibetische Momos. Frisch, herzhaft und unkompliziert – bei Yak Imbiss.",
+  "intro_en": "Swiss favourites meet Tibetan momos. Fresh, hearty and delicious – welcome to Yak Imbiss.",
   "about": "Ob eine schnelle Pause unterwegs oder ein gemütlicher Imbiss: Bei Yak Imbiss verbinden wir vertraute Schweizer Imbiss-Klassiker mit tibetischen Spezialitäten.",
+  "about_en": "Whether you're stopping for a quick bite or a relaxing break, Yak Imbiss brings together familiar Swiss favourites and Tibetan specialities.",
   "announcement": "Willkommen bei Yak Imbiss!",
+  "announcement_en": "Welcome to Yak Imbiss!",
   "opening_hours": "Öffnungszeiten bitte beim Betreiber bestätigen.",
+  "opening_hours_en": "Opening hours to be confirmed with the owner.",
   "phone": "+41 79 103 65 25",
   "email": "phichiphuntsokdorjee@gmail.com",
   "hero_image": "/images/c076a59c-8990-4671-96ed-6709b03de44a.jpeg",
-  "menu_note": "Gerichte und Preise bitte vor Veröffentlichung mit dem Betreiber bestätigen.",
+  "menu_note": "Alle Preise in CHF.",
+  "menu_note_en": "All prices in CHF.",
   "menu": [
     {
-      "category": "Tibetisch",
-      "name": "Rindfleisch Momos",
-      "description": "Mit Salat",
-      "price": "7 Stück CHF 15 · 10 Stück CHF 20 · 16 Stück CHF 32"
-    },
-    {
-      "category": "Tibetisch · Vegetarisch",
-      "name": "Vegi Momos",
-      "description": "Mit Salat",
-      "price": "7 Stück CHF 15 · 10 Stück CHF 20 · 16 Stück CHF 32"
-    },
-    {
-      "category": "Tibetisch",
-      "name": "Shabale Rindfleisch",
-      "description": "Mit Salat",
-      "price": "3 Stück CHF 13 · 5 Stück CHF 21 · 8 Stück CHF 32"
-    },
-    {
-      "category": "Imbiss",
-      "name": "Bratwurst",
-      "description": "Mit Pommes und Salat",
-      "price": "CHF 12"
-    },
-    {
-      "category": "Imbiss",
-      "name": "Burger",
-      "description": "Mit Pommes und Salat",
-      "price": "CHF 15"
-    },
-    {
-      "category": "Imbiss",
-      "name": "Schnitzel",
-      "description": "Mit Pommes und Salat",
-      "price": "CHF 13"
-    },
-    {
-      "category": "Imbiss",
-      "name": "Chicken Wings",
-      "description": "Mit Pommes und Salat",
-      "price": "CHF 13"
-    },
-    {
-      "category": "Imbiss",
-      "name": "Currywurst",
-      "description": "Mit Pommes und Salat",
-      "price": "CHF 13"
-    },
-    {
-      "category": "Imbiss",
-      "name": "Chicken Nuggets",
-      "description": "Mit Pommes und Salat",
-      "price": "CHF 12"
-    },
-    {
-      "category": "Imbiss",
-      "name": "Pommes frites",
-      "description": "Portion",
-      "price": "CHF 6"
-    },
-    {
-      "category": "Nudeln",
-      "name": "Gebratene Nudeln mit Poulet",
-      "price": "CHF 16"
-    },
-    {
-      "category": "Nudeln · Vegetarisch",
-      "name": "Gebratene Nudeln Vegi",
-      "price": "CHF 15"
-    },
-    {
-      "category": "Getränke",
-      "name": "Softdrinks und Wasser",
-      "description": "Coca-Cola, Rivella, Fanta, Shorley, Eistee und weitere",
-      "price": "CHF 3"
-    },
-    {
-      "category": "Getränke",
+      "category": "Heisse Getränke",
+      "category_en": "Hot Drinks",
       "name": "Kaffee",
-      "price": "3.50"
+      "name_en": "Coffee",
+      "price": "CHF 3.50"
     },
     {
-      "category": "Getränke",
+      "category": "Heisse Getränke",
+      "category_en": "Hot Drinks",
       "name": "Espresso",
-      "price": "3.50"
+      "name_en": "Espresso",
+      "price": "CHF 3.50"
     },
     {
-      "category": "Getränke",
-      "name": "Cappuccino",
-      "price": "4.00"
+      "category": "Heisse Getränke",
+      "category_en": "Hot Drinks",
+      "name": "Milchkaffee",
+      "name_en": "Coffee with Milk",
+      "price": "CHF 4.00"
     },
     {
-      "category": "Getränke",
+      "category": "Heisse Getränke",
+      "category_en": "Hot Drinks",
       "name": "Latte Macchiato",
-      "price": "4.00"
+      "name_en": "Latte Macchiato",
+      "price": "CHF 4.00"
+    },
+    {
+      "category": "Heisse Getränke",
+      "category_en": "Hot Drinks",
+      "name": "Cappuccino",
+      "name_en": "Cappuccino",
+      "price": "CHF 4.00"
+    },
+    {
+      "category": "Heisse Getränke",
+      "category_en": "Hot Drinks",
+      "name": "Chai Latte",
+      "name_en": "Chai Latte",
+      "price": "CHF 4.00"
+    },
+    {
+      "category": "Heisse Getränke",
+      "category_en": "Hot Drinks",
+      "name": "Tee",
+      "name_en": "Tea",
+      "price": "CHF 3.00"
+    },
+    {
+      "category": "Kalte Getränke",
+      "category_en": "Cold Drinks",
+      "name": "Cola / Cola Zero",
+      "name_en": "Cola / Cola Zero",
+      "price": "CHF 3.50"
+    },
+    {
+      "category": "Kalte Getränke",
+      "category_en": "Cold Drinks",
+      "name": "Fanta / Rivella / Schorle",
+      "name_en": "Fanta / Rivella / Schorle",
+      "price": "CHF 3.50"
+    },
+    {
+      "category": "Kalte Getränke",
+      "category_en": "Cold Drinks",
+      "name": "Mineralwasser",
+      "name_en": "Mineral Water",
+      "price": "CHF 3.50"
+    },
+    {
+      "category": "Essen",
+      "category_en": "Food",
+      "name": "Pommes frites",
+      "name_en": "Chips",
+      "price": "CHF 6.00"
+    },
+    {
+      "category": "Essen",
+      "category_en": "Food",
+      "name": "Rindfleisch-Momos",
+      "name_en": "Beef Momos",
+      "description": "8 Stück mit Salat",
+      "description_en": "8 pieces with salad",
+      "price": "CHF 15.00"
+    },
+    {
+      "category": "Essen",
+      "category_en": "Food",
+      "name": "Vegane Momos",
+      "name_en": "Vegan Momos",
+      "description": "8 Stück mit Salat",
+      "description_en": "8 pieces with salad",
+      "price": "CHF 15.00"
+    },
+    {
+      "category": "Essen",
+      "category_en": "Food",
+      "name": "Gebratene Nudeln mit Poulet",
+      "name_en": "Chicken Fried Noodles",
+      "price": "CHF 15.00"
+    },
+    {
+      "category": "Essen",
+      "category_en": "Food",
+      "name": "Bratwurst",
+      "name_en": "Bratwurst",
+      "description": "Mit Pommes und Salat",
+      "description_en": "With chips and salad",
+      "price": "CHF 12.00"
+    },
+    {
+      "category": "Essen",
+      "category_en": "Food",
+      "name": "Cervelat",
+      "name_en": "Cervelat Sausage",
+      "description": "Mit Pommes und Salat",
+      "description_en": "With chips and salad",
+      "price": "CHF 11.00"
+    },
+    {
+      "category": "Essen",
+      "category_en": "Food",
+      "name": "Currywurst",
+      "name_en": "Currywurst",
+      "description": "Mit Pommes und Salat",
+      "description_en": "With chips and salad",
+      "price": "CHF 13.00"
+    },
+    {
+      "category": "Essen",
+      "category_en": "Food",
+      "name": "Schnitzel",
+      "name_en": "Schnitzel",
+      "description": "Mit Pommes und Salat",
+      "description_en": "With chips and salad",
+      "price": "CHF 13.00"
+    },
+    {
+      "category": "Essen",
+      "category_en": "Food",
+      "name": "Smashed Burger",
+      "name_en": "Smashed Burger",
+      "description": "Mit Pommes und Salat",
+      "description_en": "With chips and salad",
+      "price": "CHF 12.00"
+    },
+    {
+      "category": "Essen",
+      "category_en": "Food",
+      "name": "Chicken Wings",
+      "name_en": "Chicken Wings",
+      "description": "4 Stück mit Pommes und Salat",
+      "description_en": "4 pieces with chips and salad",
+      "price": "CHF 13.00"
+    },
+    {
+      "category": "Essen",
+      "category_en": "Food",
+      "name": "Chicken Nuggets",
+      "name_en": "Chicken Nuggets",
+      "description": "5 Stück mit Pommes und Salat",
+      "description_en": "5 pieces with chips and salad",
+      "price": "CHF 12.00"
     }
   ]
 }
