@@ -88,6 +88,10 @@
     {
       "category": "Kaffee",
       "price": "3.50"
+    },
+    {
+      "category": "Espresso",
+      "price": "3.50"
     }
   ]
 }
