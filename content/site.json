@@ -86,19 +86,23 @@
       "price": "CHF 3"
     },
     {
-      "category": "Kaffee",
+      "category": "Getränke",
+      "name": "Kaffee",
       "price": "3.50"
     },
     {
-      "category": "Espresso",
+      "category": "Getränke",
+      "name": "Espresso",
       "price": "3.50"
     },
     {
-      "category": "Cappuccino",
+      "category": "Getränke",
+      "name": "Cappuccino",
       "price": "4.00"
     },
     {
-      "category": "Latte Macchiato",
+      "category": "Getränke",
+      "name": "Latte Macchiato",
       "price": "4.00"
     }
   ]
