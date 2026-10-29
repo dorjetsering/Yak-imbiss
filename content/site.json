@@ -84,6 +84,10 @@
       "name": "Softdrinks und Wasser",
       "description": "Coca-Cola, Rivella, Fanta, Shorley, Eistee und weitere",
       "price": "CHF 3"
+    },
+    {
+      "category": "Kaffee",
+      "price": "3.50"
     }
   ]
 }
