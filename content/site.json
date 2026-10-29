@@ -1,0 +1,91 @@
+{
+  "headline": "Einfach gut. Mit Liebe gemacht.",
+  "intro": "Schweizer Klassiker treffen auf tibetische Momos. Frisch, herzhaft und unkompliziert – bei Yak Imbiss.",
+  "about": "Ob eine schnelle Pause unterwegs oder ein gemütlicher Imbiss: Bei Yak Imbiss verbinden wir vertraute Schweizer Imbiss-Klassiker mit tibetischen Spezialitäten.",
+  "menu_note": "Gerichte und Preise bitte vor Veröffentlichung mit dem Betreiber bestätigen.",
+  "opening_hours": "Öffnungszeiten bitte beim Betreiber bestätigen.",
+  "phone": "+41 79 103 65 25",
+  "email": "phichiphuntsokdorjee@gmail.com",
+  "announcement": "",
+  "hero_image": "",
+  "menu": [
+    {
+      "category": "Tibetisch",
+      "name": "Rindfleisch Momos",
+      "description": "Mit Salat",
+      "price": "7 Stück CHF 15 · 10 Stück CHF 20 · 16 Stück CHF 32"
+    },
+    {
+      "category": "Tibetisch · Vegetarisch",
+      "name": "Vegi Momos",
+      "description": "Mit Salat",
+      "price": "7 Stück CHF 15 · 10 Stück CHF 20 · 16 Stück CHF 32"
+    },
+    {
+      "category": "Tibetisch",
+      "name": "Shabale Rindfleisch",
+      "description": "Mit Salat",
+      "price": "3 Stück CHF 13 · 5 Stück CHF 21 · 8 Stück CHF 32"
+    },
+    {
+      "category": "Imbiss",
+      "name": "Bratwurst",
+      "description": "Mit Pommes und Salat",
+      "price": "CHF 12"
+    },
+    {
+      "category": "Imbiss",
+      "name": "Burger",
+      "description": "Mit Pommes und Salat",
+      "price": "CHF 15"
+    },
+    {
+      "category": "Imbiss",
+      "name": "Schnitzel",
+      "description": "Mit Pommes und Salat",
+      "price": "CHF 13"
+    },
+    {
+      "category": "Imbiss",
+      "name": "Chicken Wings",
+      "description": "Mit Pommes und Salat",
+      "price": "CHF 13"
+    },
+    {
+      "category": "Imbiss",
+      "name": "Currywurst",
+      "description": "Mit Pommes und Salat",
+      "price": "CHF 13"
+    },
+    {
+      "category": "Imbiss",
+      "name": "Chicken Nuggets",
+      "description": "Mit Pommes und Salat",
+      "price": "CHF 12"
+    },
+    {
+      "category": "Imbiss",
+      "name": "Pommes frites",
+      "description": "Portion",
+      "price": "CHF 6"
+    },
+    {
+      "category": "Nudeln",
+      "name": "Gebratene Nudeln mit Poulet",
+      "description": "",
+      "price": "CHF 16"
+    },
+    {
+      "category": "Nudeln · Vegetarisch",
+      "name": "Gebratene Nudeln Vegi",
+      "description": "",
+      "price": "CHF 15"
+    },
+    {
+      "category": "Getränke",
+      "name": "Softdrinks und Wasser",
+      "description": "Coca-Cola, Rivella, Fanta, Shorley, Eistee und weitere",
+      "price": "CHF 3"
+    }
+  ]
+}
