@@ -1,0 +1,15 @@
+
+media:
+  input: images
+  output: /images
+
+content:
+  - name: website
+    label: Website
+    type: file
+    path: index.html
+    format: raw
+    fields:
+      - name: body
+        label: Website HTML
+        type: code
