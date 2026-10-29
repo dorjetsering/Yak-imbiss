@@ -92,6 +92,10 @@
     {
       "category": "Espresso",
       "price": "3.50"
+    },
+    {
+      "category": "Cappuccino",
+      "price": "4.00"
     }
   ]
 }
