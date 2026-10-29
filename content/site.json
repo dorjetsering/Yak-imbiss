@@ -96,6 +96,10 @@
     {
       "category": "Cappuccino",
       "price": "4.00"
+    },
+    {
+      "category": "Latte Macchiato",
+      "price": "4.00"
     }
   ]
 }
