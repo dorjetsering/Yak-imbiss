@@ -1,0 +1,55 @@
+media:
+  input: images
+  output: /images
+
+content:
+  - name: site
+    label: Yak Imbiss bearbeiten
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: headline
+        label: Hauptüberschrift
+        type: string
+      - name: intro
+        label: Einleitung
+        type: text
+      - name: about
+        label: Über uns
+        type: text
+      - name: announcement
+        label: Aktuelle Mitteilung
+        type: text
+      - name: opening_hours
+        label: Öffnungszeiten
+        type: text
+      - name: phone
+        label: Telefonnummer
+        type: string
+      - name: email
+        label: E-Mail
+        type: string
+      - name: hero_image
+        label: Foto des Imbisswagens
+        type: image
+      - name: menu_note
+        label: Hinweis zur Speisekarte
+        type: text
+      - name: menu
+        label: Speisekarte
+        type: object
+        list: true
+        fields:
+          - name: category
+            label: Kategorie
+            type: string
+          - name: name
+            label: Gericht
+            type: string
+          - name: description
+            label: Beschreibung
+            type: string
+          - name: price
+            label: Preis (mit CHF)
+            type: string
