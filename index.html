@@ -1,44 +1,69 @@
 <!DOCTYPE html>
-<html lang="de-CH"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Yak Imbiss – Swiss favourites and Tibetan momos at Gerenau Rastplatz, Wädenswil."><title>Yak Imbiss | Swiss favourites & Tibetan momos</title>
+
+<html lang="de-CH">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Yak Imbiss – Swiss favourites and Tibetan momos at Gerenau Rastplatz, Wädenswil." name="description"/>
+<title>Yak Imbiss | Swiss Favourites &amp; Tibetan Momos</title>
 <style>
 :root{--cream:#f8f5ee;--ink:#292723;--wine:#812d3b;--muted:#6e6963;--line:#e2dbcf}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.55}a{color:inherit}header{display:flex;align-items:center;justify-content:space-between;padding:20px max(5vw,20px);border-bottom:1px solid var(--line);gap:20px}header strong{font-family:Georgia,serif;font-size:25px;letter-spacing:.03em}nav{display:flex;gap:22px;flex-wrap:wrap;align-items:center}nav a{text-decoration:none;font-size:14px}.language{display:flex;gap:4px}.language button{background:transparent;border:1px solid var(--line);padding:7px 10px;cursor:pointer;color:var(--ink);font:inherit;font-size:13px}.language button[aria-pressed=true]{background:var(--wine);color:white;border-color:var(--wine)}.hero{padding:95px max(5vw,20px) 100px;max-width:1100px;margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:.19em;color:var(--wine);font-size:12px;font-weight:bold}h1,h2{font-family:Georgia,serif;font-weight:400;line-height:1.1}h1{font-size:clamp(48px,8vw,104px);margin:20px 0}h2{font-size:clamp(34px,5vw,54px);margin:8px 0 22px}.hero p{font-size:19px;color:var(--muted);max-width:560px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-block;padding:13px 22px;border:1px solid var(--wine);text-decoration:none;font-weight:bold;font-size:14px}.primary{background:var(--wine);color:white}.secondary{color:var(--wine)}.stripe{height:10px;background:repeating-linear-gradient(90deg,var(--wine) 0 75px,#e3c2a3 75px 150px)}section{padding:75px max(5vw,20px)}.inner{max-width:1100px;margin:auto}.soft{background:#eee8de}.intro{max-width:680px;color:var(--muted)}.menu{margin-top:36px}.menu-group{margin:0 0 45px}.menu-group-title{font-family:Georgia,serif;font-size:clamp(27px,4vw,38px);font-weight:400;color:var(--wine);margin:0 0 12px}.menu-group-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.menu article{border-top:1px solid #bfb4a6;padding:22px 0}.menu h3{font-family:Georgia,serif;font-size:27px;font-weight:normal;margin:0 0 8px}.menu p{color:var(--muted);margin:0}.tag{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--wine);font-weight:bold}.notice{font-size:13px;color:var(--muted);margin-top:25px}.details{display:grid;grid-template-columns:1fr 1fr;gap:35px}.details p{color:var(--muted)}.placeholder{padding:30px;border:1px dashed #ab9f91;color:var(--muted);background:#f6f0e7}footer{padding:30px max(5vw,20px);display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;font-size:13px;color:var(--muted)}.caravan-photo{width:100%;height:auto;display:block;border-radius:3px;margin-top:35px;max-height:560px;object-fit:cover}@media(max-width:650px){header{align-items:flex-start;flex-direction:column}nav{gap:14px}.hero{padding-top:70px;padding-bottom:75px}.menu-group-items,.details{grid-template-columns:1fr}section{padding-top:55px;padding-bottom:55px}}
-</style></head><body>
-<header><strong>YAK IMBISS<span style="color:#812d3b">.</span></strong><nav aria-label="Main navigation"><a href="#ueber-uns" data-i="nav_about">Über uns</a><a href="#speisekarte" data-i="nav_menu">Speisekarte</a><a href="#standort" data-i="nav_location">Standort</a><div class="language" role="group" aria-label="Website language"><button type="button" id="lang-de" aria-pressed="true">DE</button><button type="button" id="lang-en" aria-pressed="false">EN</button></div></nav></header>
-<main><div class="hero"><div class="eyebrow" data-i="eyebrow">Zürich · Street Food</div><h1 id="hero-title">Einfach gut. Mit Liebe gemacht.</h1><p id="hero-intro">Schweizer Klassiker treffen auf tibetische Momos.</p><div class="buttons"><a class="btn primary" href="#speisekarte" data-i="view_menu">Speisekarte ansehen</a><a class="btn secondary" href="#standort" data-i="find_us">Standort finden</a></div><img alt="Yak Imbiss food caravan" class="caravan-photo" id="hero-photo" style="display:none"></div><div aria-hidden="true" class="stripe"></div>
-<section id="ueber-uns"><div class="inner"><div class="eyebrow" data-i="welcome">Willkommen</div><h2 data-i="stop">Ein Stopp, der sich lohnt.</h2><p class="intro" id="about-text"></p></div></section>
-<section class="soft" id="speisekarte"><div class="inner"><div class="eyebrow" data-i="selection">Unsere Auswahl</div><h2 data-i="nav_menu">Speisekarte</h2><p class="intro" id="menu-note"></p><div class="menu" id="menu-items"></div><p class="notice" data-i="availability">Preise und Verfügbarkeit können sich ändern. Bitte beim Betreiber bestätigen.</p></div></section>
-<section id="standort"><div class="inner"><div class="eyebrow" data-i="visit">Besuchen Sie uns</div><h2 data-i="here">Hier finden Sie uns.</h2><div class="details"><div><h3 data-i="nav_location">Standort</h3><p>Yak Imbiss · Gerenau Rastplatz<br>A3 Richtung Chur, 8820 Wädenswil</p><a class="btn primary" href="https://www.google.com/maps/search/?api=1&amp;query=Gerenau+Rastplatz+A3+Richtung+Chur+8820+W%C3%A4denswil" rel="noopener noreferrer" target="_blank" data-i="directions">Route planen</a><p class="notice" data-i="pin">Bitte den genauen Karten-Pin vor Veröffentlichung prüfen.</p></div><div><h3 data-i="hours">Öffnungszeiten & Kontakt</h3><div class="placeholder" id="hours-contact"></div></div></div></div></section></main><footer><span>© <span id="year"></span> Yak Imbiss</span><span data-i="footer">Schweizer Klassiker & Tibetische Momos</span></footer>
+</style>
+</head>
+<body>
+<header><strong>YAK IMBISS<span style="color:#812d3b">.</span></strong><nav aria-label="Main navigation"><a data-de="Über uns" data-en="About us" href="#about">About us</a><a data-de="Speisekarte" data-en="Menu" href="#menu">Menu</a><a data-de="Standort" data-en="Location" href="#location">Location</a><div aria-label="Website language" class="language" role="group"><button aria-pressed="true" id="lang-de" type="button">DE</button><button aria-pressed="false" id="lang-en" type="button">EN</button></div></nav></header>
+<main>
+<div class="hero"><div class="eyebrow" data-de="Zürich · Street Food" data-en="Zurich · Street Food">Zurich · Street Food</div><h1 data-de="Kleine Pause. Grosser Genuss." data-en="A Little Stop. A Lot of Flavour.">A Little Stop. A Lot of Flavour.</h1><p data-de="Schweizer Klassiker treffen auf tibetische Momos. Frisch, herzhaft und unkompliziert – bei Yak Imbiss." data-en="Swiss favourites meet Tibetan momos. Fresh, hearty and delicious – welcome to Yak Imbiss.">Swiss favourites meet Tibetan momos. Fresh, hearty and delicious – welcome to Yak Imbiss.</p><div class="buttons"><a class="btn primary" data-de="Speisekarte ansehen" data-en="View menu" href="#menu">View menu</a><a class="btn secondary" data-de="Standort finden" data-en="Find us" href="#location">Find us</a></div><img alt="Yak Imbiss food caravan" class="caravan-photo" src="/images/c076a59c-8990-4671-96ed-6709b03de44a.jpeg"/></div>
+<div aria-hidden="true" class="stripe"></div>
+<section id="about"><div class="inner"><div class="eyebrow" data-de="Willkommen" data-en="Welcome">Welcome</div><h2 data-de="Ein Stopp, der sich lohnt." data-en="A stop worth making.">A stop worth making.</h2><p class="intro" data-de="Ob eine schnelle Pause unterwegs oder ein gemütlicher Imbiss: Bei Yak Imbiss verbinden wir vertraute Schweizer Imbiss-Klassiker mit tibetischen Spezialitäten." data-en="Whether you're stopping for a quick bite or a relaxing break, Yak Imbiss brings together familiar Swiss favourites and Tibetan specialities.">Whether you're stopping for a quick bite or a relaxing break, Yak Imbiss brings together familiar Swiss favourites and Tibetan specialities.</p></div></section>
+<section class="soft" id="menu"><div class="inner"><div class="eyebrow" data-de="Unsere Auswahl" data-en="Our selection">Our selection</div><h2 data-de="Speisekarte" data-en="Menu">Menu</h2><p class="intro" data-de="Alle Preise in CHF." data-en="All prices in CHF.">All prices in CHF.</p><div class="menu"><div class="menu-group"><h3 class="menu-group-title" data-de="Heisse Getränke" data-en="Hot Drinks">Hot Drinks</h3><div class="menu-group-items">
+<article><h3 data-de="Kaffee" data-en="Coffee">Coffee</h3><p><strong>CHF 3.50</strong></p></article>
+<article><h3>Espresso</h3><p><strong>CHF 3.50</strong></p></article>
+<article><h3 data-de="Milchkaffee" data-en="Coffee with Milk">Coffee with Milk</h3><p><strong>CHF 4.00</strong></p></article>
+<article><h3>Latte Macchiato</h3><p><strong>CHF 4.00</strong></p></article>
+<article><h3>Cappuccino</h3><p><strong>CHF 4.00</strong></p></article>
+<article><h3>Chai Latte</h3><p><strong>CHF 4.00</strong></p></article>
+<article><h3 data-de="Tee" data-en="Tea">Tea</h3><p><strong>CHF 3.00</strong></p></article>
+</div></div>
+<div class="menu-group"><h3 class="menu-group-title" data-de="Kalte Getränke" data-en="Cold Drinks">Cold Drinks</h3><div class="menu-group-items">
+<article><h3>Cola / Cola Zero</h3><p><strong>CHF 3.50</strong></p></article>
+<article><h3>Fanta / Rivella / Schorle</h3><p><strong>CHF 3.50</strong></p></article>
+<article><h3 data-de="Mineralwasser" data-en="Mineral Water">Mineral Water</h3><p><strong>CHF 3.50</strong></p></article>
+</div></div>
+<div class="menu-group"><h3 class="menu-group-title" data-de="Essen" data-en="Food">Food</h3><div class="menu-group-items">
+<article><h3 data-de="Pommes frites" data-en="Chips">Chips</h3><p><strong>CHF 6.00</strong></p></article>
+<article><h3 data-de="Rindfleisch-Momos" data-en="Beef Momos">Beef Momos</h3><p data-de="8 Stück mit Salat" data-en="8 pieces with salad">8 pieces with salad</p><p><strong>CHF 15.00</strong></p></article>
+<article><h3 data-de="Vegane Momos" data-en="Vegan Momos">Vegan Momos</h3><p data-de="8 Stück mit Salat" data-en="8 pieces with salad">8 pieces with salad</p><p><strong>CHF 15.00</strong></p></article>
+<article><h3 data-de="Gebratene Nudeln mit Poulet" data-en="Chicken Fried Noodles">Chicken Fried Noodles</h3><p><strong>CHF 15.00</strong></p></article>
+<article><h3>Bratwurst</h3><p data-de="Mit Pommes und Salat" data-en="With chips and salad">With chips and salad</p><p><strong>CHF 12.00</strong></p></article>
+<article><h3 data-de="Cervelat" data-en="Cervelat Sausage">Cervelat Sausage</h3><p data-de="Mit Pommes und Salat" data-en="With chips and salad">With chips and salad</p><p><strong>CHF 11.00</strong></p></article>
+<article><h3>Currywurst</h3><p data-de="Mit Pommes und Salat" data-en="With chips and salad">With chips and salad</p><p><strong>CHF 13.00</strong></p></article>
+<article><h3>Schnitzel</h3><p data-de="Mit Pommes und Salat" data-en="With chips and salad">With chips and salad</p><p><strong>CHF 13.00</strong></p></article>
+<article><h3>Smashed Burger</h3><p data-de="Mit Pommes und Salat" data-en="With chips and salad">With chips and salad</p><p><strong>CHF 12.00</strong></p></article>
+<article><h3>Chicken Wings</h3><p data-de="4 Stück mit Pommes und Salat" data-en="4 pieces with chips and salad">4 pieces with chips and salad</p><p><strong>CHF 13.00</strong></p></article>
+<article><h3>Chicken Nuggets</h3><p data-de="5 Stück mit Pommes und Salat" data-en="5 pieces with chips and salad">5 pieces with chips and salad</p><p><strong>CHF 12.00</strong></p></article>
+</div></div></div><p class="notice" data-de="Preise und Verfügbarkeit können sich ändern. Bitte beim Betreiber bestätigen." data-en="Prices and availability may change. Please check with the owner.">Prices and availability may change. Please check with the owner.</p></div></section>
+<section id="location"><div class="inner"><div class="eyebrow" data-de="Besuchen Sie uns" data-en="Visit us">Visit us</div><h2 data-de="Hier finden Sie uns." data-en="Find us here.">Find us here.</h2><div class="details"><div><h3 data-de="Standort" data-en="Location">Location</h3><p data-de-html="Yak Imbiss · Gerenau Rastplatz&lt;br&gt;A3 Richtung Chur, 8820 Wädenswil" data-en-html="Yak Imbiss · Gerenau Rastplatz&lt;br&gt;A3 towards Chur, 8820 Wädenswil">Yak Imbiss · Gerenau Rastplatz<br/>A3 towards Chur, 8820 Wädenswil</p><a class="btn primary" data-de="Route planen" data-en="Get directions" href="https://www.google.com/maps/search/?api=1&amp;query=Gerenau+Rastplatz+A3+Richtung+Chur+8820+W%C3%A4denswil" rel="noopener noreferrer" target="_blank">Get directions</a><p class="notice" data-de="Bitte den genauen Karten-Pin beim Betreiber bestätigen." data-en="Please confirm the exact map pin with the owner.">Please confirm the exact map pin with the owner.</p></div><div><h3 data-de="Öffnungszeiten &amp; Kontakt" data-en="Opening hours &amp; contact">Opening hours &amp; contact</h3><div class="placeholder"><p data-de="Montag–Sonntag: 07:30–22:00 Uhr" data-en="Monday–Sunday: 7:30 am–10:00 pm">Monday–Sunday: 7:30 am–10:00 pm</p><p data-de="Willkommen bei Yak Imbiss!" data-en="Welcome to Yak Imbiss!">Welcome to Yak Imbiss!</p><p><a href="tel:+41791036525">+41 79 103 65 25</a></p><p><a href="mailto:phichiphuntsokdorjee@gmail.com">phichiphuntsokdorjee@gmail.com</a></p></div></div></div></div></section>
+</main>
+<footer><span>© 2026 Yak Imbiss</span><span data-de="Schweizer Klassiker &amp; Tibetische Momos" data-en="Swiss favourites &amp; Tibetan momos">Swiss favourites &amp; Tibetan momos</span></footer>
 <script>
-(()=>{'use strict';const labels={de:{nav_about:'Über uns',nav_menu:'Speisekarte',nav_location:'Standort',eyebrow:'Zürich · Street Food',view_menu:'Speisekarte ansehen',find_us:'Standort finden',welcome:'Willkommen',stop:'Ein Stopp, der sich lohnt.',selection:'Unsere Auswahl',availability:'Preise und Verfügbarkeit können sich ändern. Bitte beim Betreiber bestätigen.',visit:'Besuchen Sie uns',here:'Hier finden Sie uns.',directions:'Route planen',pin:'Bitte den genauen Karten-Pin vor Veröffentlichung prüfen.',hours:'Öffnungszeiten & Kontakt',footer:'Schweizer Klassiker & Tibetische Momos'},en:{nav_about:'About us',nav_menu:'Menu',nav_location:'Location',eyebrow:'Zurich · Street Food',view_menu:'View menu',find_us:'Find us',welcome:'Welcome',stop:'A stop worth making.',selection:'Our selection',availability:'Prices and availability may change. Please check with the owner.',visit:'Visit us',here:'Find us here.',directions:'Get directions',pin:'Please check the exact map pin before publication.',hours:'Opening hours & contact',footer:'Swiss favourites & Tibetan momos'}};
-const fallback={headline:'Kleine Pause. Grosser Genuss.',headline_en:'A Little Stop. A Lot of Flavour.',intro:'Schweizer Klassiker treffen auf tibetische Momos.',intro_en:'Swiss favourites meet Tibetan momos.',about:'Ob eine schnelle Pause unterwegs oder ein gemütlicher Imbiss.',about_en:'Whether you are stopping for a quick bite or taking a relaxed break.',opening_hours:'Öffnungszeiten bitte beim Betreiber bestätigen.',opening_hours_en:'Please confirm opening hours with the owner.',menu_note:'Gerichte und Preise bitte vor Veröffentlichung mit dem Betreiber bestätigen.',menu_note_en:'Please confirm dishes and prices with the owner before publication.',menu:[]};let data=fallback;let lang='de';
-const get=(o,key)=>{if(lang==='en' && typeof o[key+'_en']==='string' && o[key+'_en'].trim())return o[key+'_en'];return o[key]||''};const put=(id,s)=>{document.getElementById(id).textContent=s};
-function render(){document.documentElement.lang=lang==='de'?'de-CH':'en';document.title=lang==='de'?'Yak Imbiss | Schweizer Klassiker & Tibetische Momos':'Yak Imbiss | Swiss favourites & Tibetan momos';document.querySelectorAll('[data-i]').forEach(el=>el.textContent=labels[lang][el.dataset.i]||'');document.getElementById('lang-de').setAttribute('aria-pressed',String(lang==='de'));document.getElementById('lang-en').setAttribute('aria-pressed',String(lang==='en'));put('hero-title',get(data,'headline'));put('hero-intro',get(data,'intro'));put('about-text',get(data,'about'));put('menu-note',get(data,'menu_note'));
-const photo=document.getElementById('hero-photo');if(data.hero_image){photo.src=data.hero_image;photo.style.display='block'}
-const contact=document.getElementById('hours-contact');contact.replaceChildren();[get(data,'opening_hours'),get(data,'announcement')].filter(Boolean).forEach(s=>{const p=document.createElement('p');p.textContent=s;contact.append(p)});if(data.phone){const p=document.createElement('p'),a=document.createElement('a');a.href='tel:'+data.phone.replace(/[^+\d]/g,'');a.textContent=data.phone;p.append(a);contact.append(p)}if(data.email){const p=document.createElement('p'),a=document.createElement('a');a.href='mailto:'+data.email;a.textContent=data.email;p.append(a);contact.append(p)}
-const menu=document.getElementById('menu-items');menu.replaceChildren();
- const groups=new Map();
- (Array.isArray(data.menu)?data.menu:[]).forEach(item=>{
-   const key=item.category||'Other';
-   if(!groups.has(key))groups.set(key,[]);
-   groups.get(key).push(item);
- });
- groups.forEach(items=>{
-   const section=document.createElement('section');section.className='menu-group';section.style.padding='0';
-   const heading=document.createElement('h3');heading.className='menu-group-title';heading.textContent=get(items[0],'category');
-   const grid=document.createElement('div');grid.className='menu-group-items';
-   items.forEach(item=>{
-     const article=document.createElement('article');
-     const name=document.createElement('h3');name.textContent=get(item,'name');
-     const desc=document.createElement('p');desc.textContent=get(item,'description');
-     const price=document.createElement('p'),strong=document.createElement('strong');
-     let v=item.price||'';
-     if(lang==='en')v=v.replace(/Stück/g,'pieces');
-     if(/^\d+(?:\.\d{1,2})?$/.test(v))v='CHF '+v;
-     strong.textContent=v;price.append(strong);
-     article.append(name,desc,price);grid.append(article);
-   });
-   section.append(heading,grid);menu.append(section);
- });}
-
-document.getElementById('lang-de').addEventListener('click',()=>{lang='de';render()});document.getElementById('lang-en').addEventListener('click',()=>{lang='en';render()});put('year',String(new Date().getFullYear()));render();fetch('/content/site.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Content unavailable');return r.json()}).then(d=>{data=d;render()}).catch(e=>console.warn('Showing fallback website content',e));})();
-</script></body></html>
+(function () {
+  'use strict';
+  function setLanguage(lang) {
+    document.documentElement.lang = lang === 'de' ? 'de-CH' : 'en';
+    document.title = lang === 'de' ? 'Yak Imbiss | Schweizer Klassiker & Tibetische Momos' : 'Yak Imbiss | Swiss Favourites & Tibetan Momos';
+    document.querySelectorAll('[data-de][data-en]').forEach(function (el) {
+      el.textContent = el.getAttribute('data-' + lang);
+    });
+    document.querySelectorAll('[data-de-html][data-en-html]').forEach(function (el) {
+      el.innerHTML = el.getAttribute('data-' + lang + '-html');
+    });
+    document.getElementById('lang-de').setAttribute('aria-pressed', String(lang === 'de'));
+    document.getElementById('lang-en').setAttribute('aria-pressed', String(lang === 'en'));
+  }
+  document.getElementById('lang-de').addEventListener('click', function () { setLanguage('de'); });
+  document.getElementById('lang-en').addEventListener('click', function () { setLanguage('en'); });
+  setLanguage('de');
+})();
+</script></body>
+</html>
